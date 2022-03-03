@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="AggregatesModel\" />
+    <None Remove="AggregatesModel\CompanyAggregate\" />
+    <None Remove="AggregatesModel\CargoAggregate\" />
+    <None Remove="AggregatesModel\PortAggregate\" />
+    <None Remove="SeedWork\" />
+    <None Remove="Enums\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AggregatesModel\" />
+    <Folder Include="AggregatesModel\CompanyAggregate\" />
+    <Folder Include="AggregatesModel\CargoAggregate\" />
+    <Folder Include="AggregatesModel\PortAggregate\" />
+    <Folder Include="SeedWork\" />
+    <Folder Include="Enums\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Update="Properties\launchSettings.json">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+</Project>

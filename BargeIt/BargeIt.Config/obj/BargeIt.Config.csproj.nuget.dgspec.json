@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/benjaminrobbe/Documents/BargeIt/BargeIt/BargeIt.Config/BargeIt.Config.csproj": {}
+  },
+  "projects": {
+    "/Users/benjaminrobbe/Documents/BargeIt/BargeIt/BargeIt.Config/BargeIt.Config.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/benjaminrobbe/Documents/BargeIt/BargeIt/BargeIt.Config/BargeIt.Config.csproj",
+        "projectName": "BargeIt.Config",
+        "projectPath": "/Users/benjaminrobbe/Documents/BargeIt/BargeIt/BargeIt.Config/BargeIt.Config.csproj",
+        "packagesPath": "/Users/benjaminrobbe/.nuget/packages/",
+        "outputPath": "/Users/benjaminrobbe/Documents/BargeIt/BargeIt/BargeIt.Config/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/benjaminrobbe/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
