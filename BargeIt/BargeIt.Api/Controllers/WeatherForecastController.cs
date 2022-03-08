@@ -7,6 +7,10 @@ using Microsoft.Extensions.Logging;
 
 namespace BargeIt.Api.Controllers
 {
+    /// <summary>
+    /// Provides User related endpoints
+    /// </summary>
+    [ApiVersion("1.0")]
     [ApiController]
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
@@ -23,6 +27,10 @@ namespace BargeIt.Api.Controllers
             _logger = logger;
         }
 
+        /// <summary>
+        /// Retreives all weather forecasts
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {

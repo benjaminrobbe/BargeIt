@@ -2,7 +2,6 @@
 using BargeIt.Domain.SeedWork;
 namespace BargeIt.Domain.AggregatesModel.CompanyAggregate
 {
-
     public class Barge : ITrackableEntity
     {
 

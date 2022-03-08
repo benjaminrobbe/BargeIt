@@ -1,29 +1,8 @@
 ﻿using System;
 using BargeIt.Domain.SeedWork;
+using BargeIt.Domain.Enums;
 namespace BargeIt.Domain.AggregatesModel.CompanyAggregate
 {
-    public enum CompanyType
-    { 
-        BargeOperator,
-        Shipper,
-        ShippingCompany,
-        Warehouse
-    }
-
-    //public static class CompanyTypeDescriptions
-    //{
-    //    public static string GetString(this CompanyType ct)
-    //    {
-    //        switch (ct)
-    //        {
-    //            case CompanyType.BargeOperator:
-    //                return "description 1";
-    //            default:
-    //                return "";
-    //        }
-    //    }
-    //}
-
     public class Company : ITrackableEntity
     {
         public int Id { get; private set; }

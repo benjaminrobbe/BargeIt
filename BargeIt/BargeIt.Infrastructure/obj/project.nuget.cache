@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "eeBuxTi6NjKZtxJQY1O9Sx0d038ViInbcB/+5XQCNZNukSwPC0lvFSUjLwJ3CjaFXR7/g82B0jPX8QiP3Xl61A==",
+  "dgSpecHash": "5vtSYOibn0A5tRYc6G4VlZRJ0L9kjISrMHhW8jI+bdpYeGijdzQFNTObhw0vXKOuEgeyNdBN67TUpHwQtUNjPA==",
   "success": true,
-  "projectFilePath": "/Users/benjaminrobbe/Documents/school/stage/BargeIt (master)/BargeIt.Infrastructure/BargeIt.Infrastructure.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/benjaminrobbe/Documents/school/semester 6/stage/sandbox/BargeIt/BargeIt/BargeIt.Infrastructure/BargeIt.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "/Users/benjaminrobbe/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "/Users/benjaminrobbe/.nuget/packages/microsoft.netcore.app.host.osx-x64/5.0.14/microsoft.netcore.app.host.osx-x64.5.0.14.nupkg.sha512",
+    "/Users/benjaminrobbe/.nuget/packages/microsoft.netcore.app.ref/5.0.0/microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -5,7 +5,7 @@ namespace BargeIt.Domain.AggregatesModel.CargoAggregate
 {
     public class Message
     {
-
+        //FIELDS
         public int Id { get; private set; }
         public string Content { get; private set; }
         public DateTime Date { get; private set; }
@@ -13,6 +13,7 @@ namespace BargeIt.Domain.AggregatesModel.CargoAggregate
         public virtual User Sender { get; private set; }
         public virtual Claim Claim { get; private set; }
 
+        //CONSTRUCTOR
         public Message(int id, string content, DateTime date, User sender, Claim claim, bool isSystemMessage = false)
         {
             Id = id;

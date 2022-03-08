@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/benjaminrobbe/Documents/BargeIt/BargeIt/BargeIt.Config/BargeIt.Config.csproj": {}
+    "/Users/benjaminrobbe/Documents/school/semester 6/stage/sandbox/BargeIt/BargeIt/BargeIt.Config/BargeIt.Config.csproj": {}
   },
   "projects": {
-    "/Users/benjaminrobbe/Documents/BargeIt/BargeIt/BargeIt.Config/BargeIt.Config.csproj": {
+    "/Users/benjaminrobbe/Documents/school/semester 6/stage/sandbox/BargeIt/BargeIt/BargeIt.Config/BargeIt.Config.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/benjaminrobbe/Documents/BargeIt/BargeIt/BargeIt.Config/BargeIt.Config.csproj",
+        "projectUniqueName": "/Users/benjaminrobbe/Documents/school/semester 6/stage/sandbox/BargeIt/BargeIt/BargeIt.Config/BargeIt.Config.csproj",
         "projectName": "BargeIt.Config",
-        "projectPath": "/Users/benjaminrobbe/Documents/BargeIt/BargeIt/BargeIt.Config/BargeIt.Config.csproj",
+        "projectPath": "/Users/benjaminrobbe/Documents/school/semester 6/stage/sandbox/BargeIt/BargeIt/BargeIt.Config/BargeIt.Config.csproj",
         "packagesPath": "/Users/benjaminrobbe/.nuget/packages/",
-        "outputPath": "/Users/benjaminrobbe/Documents/BargeIt/BargeIt/BargeIt.Config/obj/",
+        "outputPath": "/Users/benjaminrobbe/Documents/school/semester 6/stage/sandbox/BargeIt/BargeIt/BargeIt.Config/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/benjaminrobbe/.config/NuGet/NuGet.Config"
+          "/Users/benjaminrobbe/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -47,12 +47,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.200/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.200/RuntimeIdentifierGraph.json"
         }
       }
     }
