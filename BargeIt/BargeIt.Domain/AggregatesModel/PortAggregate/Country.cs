@@ -1,33 +1,22 @@
-﻿using System;
-using BargeIt.Domain.SeedWork;
+﻿using BargeIt.Domain.SeedWork;
+using System.Collections.Generic;
+
 namespace BargeIt.Domain.AggregatesModel.PortAggregate
 {
-    public class Country : ITrackableEntity
+    public class Country : Entity
     {
-
-        public int Id { get; private set; }
         public string Name { get; private set; }
         public string Abbreviation { get; private set; }
 
-        public DateTime Created { get; private set; }
-        public DateTime? Modified { get; private set; }
+        private readonly List<Port> _Ports;
+        public virtual IReadOnlyCollection<Port> Ports { get; private set; }
 
-        public Country(int id, string name, string abbreviaton)
+        public Country(
+            string name,
+            string abbreviaton)
         {
-            Id = id;
             Name = name;
             Abbreviation = abbreviaton;
         }
-
-        public void IsCreated()
-        {
-            Created = DateTime.UtcNow;
-        }
-
-        public void IsModified()
-        {
-            Modified = DateTime.UtcNow;
-        }
-
     }
 }

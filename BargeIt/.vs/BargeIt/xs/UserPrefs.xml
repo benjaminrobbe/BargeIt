@@ -1,13 +1,18 @@
 ﻿<Properties StartupConfiguration="{2B5DB3D2-9EF5-4362-8685-A3D8C42B6C8E}|Default">
+  <MonoDevelop.Ide.ItemProperties.BargeIt.Api PreferredExecutionTarget="/Applications/Firefox.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="BargeIt" expanded="True">
             <Node name="BargeIt.Api" expanded="True">
-              <Node name="Controllers" expanded="True" />
+              <Node name="Properties" selected="True" />
             </Node>
-            <Node name="BargeIt.Config" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -16,11 +21,6 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.BargeIt.Api PreferredExecutionTarget="/Applications/Firefox.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.BargeIt.Domain PreferredExecutionTarget="/Applications/Firefox.app" />
 </Properties>

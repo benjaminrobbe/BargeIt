@@ -7,17 +7,20 @@ using BargeIt.Domain.AggregatesModel.PortAggregate;
 
 namespace BargeIt.Domain.AggregatesModel.CargoAggregate
 {
-    public class Cargo : ITrackableEntity
+    public class Cargo : Entity
     {
 
-        //FIELDS
-        public int Id { get; private set; }
         public string CargoIdNumber { get; private set; }
-        public virtual Company CargoOwner { get; private set; }
-        public virtual Terminal TerminalOrigin { get; private set; }
-        public virtual Terminal TerminalDestination { get; private set; }
-        public virtual Quay QuayOrigin { get; private set; }
-        public virtual Quay QuayDestination { get; private set; }
+
+        public int CompanyId { get; private set; }
+        public Company Company { get; private set; }
+
+        public Terminal TerminalOrigin { get; private set; }
+        public Terminal TerminalDestination { get; private set; }
+
+        public Quay QuayOrigin { get; private set; }
+        public Quay QuayDestination { get; private set; }
+
         public int CreditsCost { get; private set; }
         public decimal RequestedPrice { get; private set; }
         public bool IsFixedPrice { get; private set; }
@@ -29,18 +32,15 @@ namespace BargeIt.Domain.AggregatesModel.CargoAggregate
         public bool DropOffIsFullDay { get; private set; }
         public bool HasDangerousGoods { get; private set; }
         public CargoStatus Status { get; private set; }
-        public virtual List<Claim> Claims { get; private set; }
 
-        //INTERFACE PROPERTIES ITrackableEntity
-        public DateTime Created { get; private set; }
-        public DateTime? Modified { get; private set; }
+        private readonly List<Claim> _Claims;
+        public virtual IReadOnlyCollection<Claim> Claims { get; private set; }
 
 
         //CONSTRUCTOR
         public Cargo(
-            int id,
             string cargoIdNumber,
-            Company cargoOwner,
+            Company company,
             Terminal terminalOrigin,
             Terminal terminalDestination,
             decimal requestedPrice,
@@ -56,9 +56,9 @@ namespace BargeIt.Domain.AggregatesModel.CargoAggregate
             bool hasDangerousGoods = false,
             bool isFixedPrice = true)
         {
-            Id = id;
             CargoIdNumber = cargoIdNumber;
-            CargoOwner = cargoOwner;
+            Company = company;
+            CompanyId = Company.Id;
             TerminalOrigin = terminalOrigin;
             TerminalDestination = terminalDestination;
             QuayOrigin = quayOrigin;
@@ -104,17 +104,6 @@ namespace BargeIt.Domain.AggregatesModel.CargoAggregate
         {
             PickUpDateStart = dateTime.Date;
             PickUpDateEnd = dateTime.Date.AddSeconds(-1);
-        }
-
-        //INTERFACE METHODS
-        public void IsCreated()
-        {
-            Created = DateTime.UtcNow;
-        }
-
-        public void IsModified()
-        {
-            Modified = DateTime.UtcNow;
         }
     }
 }

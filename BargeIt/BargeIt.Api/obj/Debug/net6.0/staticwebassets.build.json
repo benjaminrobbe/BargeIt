@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "rmcv48CJZM3SMLf77KtjUDz0DAUMh9DW6QWmKScHvNs=",
+  "Source": "BargeIt.Api",
+  "BasePath": "_content/BargeIt.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

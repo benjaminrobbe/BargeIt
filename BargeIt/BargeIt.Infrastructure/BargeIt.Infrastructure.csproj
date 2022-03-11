@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
@@ -9,11 +9,35 @@
     <None Remove="EntityConfigurations\CargoAggregate\" />
     <None Remove="EntityConfigurations\CompanyAggregate\" />
     <None Remove="EntityConfigurations\PortAggregate\" />
+    <None Remove="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" />
+    <None Remove="Microsoft.Extensions.Configuration.Json" />
+    <None Remove="Microsoft.EntityFrameworkCore.SqlServer" />
+    <None Remove="Microsoft.EntityFrameworkCore" />
+    <None Remove="Microsoft.AspNetCore.Identity.EntityFrameworkCore" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="EntityConfigurations\" />
     <Folder Include="EntityConfigurations\CargoAggregate\" />
     <Folder Include="EntityConfigurations\CompanyAggregate\" />
     <Folder Include="EntityConfigurations\PortAggregate\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="6.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.3" />
+    <PackageReference Include="MySql.EntityFrameworkCore" Version="6.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BargeIt.Domain\BargeIt.Domain.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+    <ProjectReference Include="..\BargeIt.Config\BargeIt.Config.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+    <ProjectReference Include="..\BargeIt.Api\BargeIt.Api.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
   </ItemGroup>
 </Project>

@@ -4,6 +4,195 @@
     "/Users/benjaminrobbe/Documents/school/semester 6/stage/sandbox/BargeIt/BargeIt/BargeIt.Infrastructure/BargeIt.Infrastructure.csproj": {}
   },
   "projects": {
+    "/Users/benjaminrobbe/Documents/school/semester 6/stage/sandbox/BargeIt/BargeIt/BargeIt.Api/BargeIt.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/benjaminrobbe/Documents/school/semester 6/stage/sandbox/BargeIt/BargeIt/BargeIt.Api/BargeIt.Api.csproj",
+        "projectName": "BargeIt.Api",
+        "projectPath": "/Users/benjaminrobbe/Documents/school/semester 6/stage/sandbox/BargeIt/BargeIt/BargeIt.Api/BargeIt.Api.csproj",
+        "packagesPath": "/Users/benjaminrobbe/.nuget/packages/",
+        "outputPath": "/Users/benjaminrobbe/Documents/school/semester 6/stage/sandbox/BargeIt/BargeIt/BargeIt.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/benjaminrobbe/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/benjaminrobbe/Documents/school/semester 6/stage/sandbox/BargeIt/BargeIt/BargeIt.Config/BargeIt.Config.csproj": {
+                "projectPath": "/Users/benjaminrobbe/Documents/school/semester 6/stage/sandbox/BargeIt/BargeIt/BargeIt.Config/BargeIt.Config.csproj"
+              },
+              "/Users/benjaminrobbe/Documents/school/semester 6/stage/sandbox/BargeIt/BargeIt/BargeIt.Domain/BargeIt.Domain.csproj": {
+                "projectPath": "/Users/benjaminrobbe/Documents/school/semester 6/stage/sandbox/BargeIt/BargeIt/BargeIt.Domain/BargeIt.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/benjaminrobbe/Documents/school/semester 6/stage/sandbox/BargeIt/BargeIt/BargeIt.Config/BargeIt.Config.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/benjaminrobbe/Documents/school/semester 6/stage/sandbox/BargeIt/BargeIt/BargeIt.Config/BargeIt.Config.csproj",
+        "projectName": "BargeIt.Config",
+        "projectPath": "/Users/benjaminrobbe/Documents/school/semester 6/stage/sandbox/BargeIt/BargeIt/BargeIt.Config/BargeIt.Config.csproj",
+        "packagesPath": "/Users/benjaminrobbe/.nuget/packages/",
+        "outputPath": "/Users/benjaminrobbe/Documents/school/semester 6/stage/sandbox/BargeIt/BargeIt/BargeIt.Config/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/benjaminrobbe/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/benjaminrobbe/Documents/school/semester 6/stage/sandbox/BargeIt/BargeIt/BargeIt.Domain/BargeIt.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/benjaminrobbe/Documents/school/semester 6/stage/sandbox/BargeIt/BargeIt/BargeIt.Domain/BargeIt.Domain.csproj",
+        "projectName": "BargeIt.Domain",
+        "projectPath": "/Users/benjaminrobbe/Documents/school/semester 6/stage/sandbox/BargeIt/BargeIt/BargeIt.Domain/BargeIt.Domain.csproj",
+        "packagesPath": "/Users/benjaminrobbe/.nuget/packages/",
+        "outputPath": "/Users/benjaminrobbe/Documents/school/semester 6/stage/sandbox/BargeIt/BargeIt/BargeIt.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/benjaminrobbe/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/Users/benjaminrobbe/Documents/school/semester 6/stage/sandbox/BargeIt/BargeIt/BargeIt.Infrastructure/BargeIt.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -17,15 +206,25 @@
           "/Users/benjaminrobbe/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
-            "projectReferences": {}
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/benjaminrobbe/Documents/school/semester 6/stage/sandbox/BargeIt/BargeIt/BargeIt.Api/BargeIt.Api.csproj": {
+                "projectPath": "/Users/benjaminrobbe/Documents/school/semester 6/stage/sandbox/BargeIt/BargeIt/BargeIt.Api/BargeIt.Api.csproj"
+              },
+              "/Users/benjaminrobbe/Documents/school/semester 6/stage/sandbox/BargeIt/BargeIt/BargeIt.Config/BargeIt.Config.csproj": {
+                "projectPath": "/Users/benjaminrobbe/Documents/school/semester 6/stage/sandbox/BargeIt/BargeIt/BargeIt.Config/BargeIt.Config.csproj"
+              },
+              "/Users/benjaminrobbe/Documents/school/semester 6/stage/sandbox/BargeIt/BargeIt/BargeIt.Domain/BargeIt.Domain.csproj": {
+                "projectPath": "/Users/benjaminrobbe/Documents/school/semester 6/stage/sandbox/BargeIt/BargeIt/BargeIt.Domain/BargeIt.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -35,8 +234,34 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -47,20 +272,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.osx-x64",
-              "version": "[5.0.14, 5.0.14]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"

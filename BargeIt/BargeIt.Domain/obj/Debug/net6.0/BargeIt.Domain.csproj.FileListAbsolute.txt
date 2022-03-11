@@ -1,0 +1,6 @@
+/Users/benjaminrobbe/Documents/school/semester 6/stage/sandbox/BargeIt/BargeIt/BargeIt.Domain/obj/Debug/net6.0/BargeIt.Domain.csproj.AssemblyReference.cache
+/Users/benjaminrobbe/Documents/school/semester 6/stage/sandbox/BargeIt/BargeIt/BargeIt.Domain/obj/Debug/net6.0/BargeIt.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/benjaminrobbe/Documents/school/semester 6/stage/sandbox/BargeIt/BargeIt/BargeIt.Domain/obj/Debug/net6.0/BargeIt.Domain.AssemblyInfoInputs.cache
+/Users/benjaminrobbe/Documents/school/semester 6/stage/sandbox/BargeIt/BargeIt/BargeIt.Domain/obj/Debug/net6.0/BargeIt.Domain.AssemblyInfo.cs
+/Users/benjaminrobbe/Documents/school/semester 6/stage/sandbox/BargeIt/BargeIt/BargeIt.Domain/obj/Debug/net6.0/BargeIt.Domain.csproj.CoreCompileInputs.cache
+/Users/benjaminrobbe/Documents/school/semester 6/stage/sandbox/BargeIt/BargeIt/BargeIt.Domain/obj/Debug/net6.0/BargeIt.Domain.MvcApplicationPartsAssemblyInfo.cache

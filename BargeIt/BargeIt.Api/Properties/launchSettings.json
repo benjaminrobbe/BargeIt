@@ -1,11 +1,11 @@
-﻿{
-  "$schema": "http://json.schemastore.org/launchsettings.json",
+{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
   "iisSettings": {
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:44972",
-      "sslPort": 44364
+      "applicationUrl": "http://localhost:28185",
+      "sslPort": 44398
     }
   },
   "profiles": {
@@ -19,10 +19,9 @@
     },
     "BargeIt.Api": {
       "commandName": "Project",
-      "dotnetRunMessages": "true",
       "launchBrowser": true,
       "launchUrl": "swagger",
-      "applicationUrl": "https://localhost:5001;http://localhost:5000",
+      "applicationUrl": "https://localhost:7103;http://localhost:5241",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

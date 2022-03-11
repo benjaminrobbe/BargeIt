@@ -1,0 +1,12 @@
+/Users/benjaminrobbe/Documents/school/semester 6/stage/sandbox/BargeIt/BargeIt/BargeIt.Config/bin/Debug/net6.0/BargeIt.Config.deps.json
+/Users/benjaminrobbe/Documents/school/semester 6/stage/sandbox/BargeIt/BargeIt/BargeIt.Config/bin/Debug/net6.0/BargeIt.Config.dll
+/Users/benjaminrobbe/Documents/school/semester 6/stage/sandbox/BargeIt/BargeIt/BargeIt.Config/bin/Debug/net6.0/BargeIt.Config.pdb
+/Users/benjaminrobbe/Documents/school/semester 6/stage/sandbox/BargeIt/BargeIt/BargeIt.Config/obj/Debug/net6.0/BargeIt.Config.csproj.AssemblyReference.cache
+/Users/benjaminrobbe/Documents/school/semester 6/stage/sandbox/BargeIt/BargeIt/BargeIt.Config/obj/Debug/net6.0/BargeIt.Config.GeneratedMSBuildEditorConfig.editorconfig
+/Users/benjaminrobbe/Documents/school/semester 6/stage/sandbox/BargeIt/BargeIt/BargeIt.Config/obj/Debug/net6.0/BargeIt.Config.AssemblyInfoInputs.cache
+/Users/benjaminrobbe/Documents/school/semester 6/stage/sandbox/BargeIt/BargeIt/BargeIt.Config/obj/Debug/net6.0/BargeIt.Config.AssemblyInfo.cs
+/Users/benjaminrobbe/Documents/school/semester 6/stage/sandbox/BargeIt/BargeIt/BargeIt.Config/obj/Debug/net6.0/BargeIt.Config.csproj.CoreCompileInputs.cache
+/Users/benjaminrobbe/Documents/school/semester 6/stage/sandbox/BargeIt/BargeIt/BargeIt.Config/obj/Debug/net6.0/BargeIt.Config.dll
+/Users/benjaminrobbe/Documents/school/semester 6/stage/sandbox/BargeIt/BargeIt/BargeIt.Config/obj/Debug/net6.0/refint/BargeIt.Config.dll
+/Users/benjaminrobbe/Documents/school/semester 6/stage/sandbox/BargeIt/BargeIt/BargeIt.Config/obj/Debug/net6.0/BargeIt.Config.pdb
+/Users/benjaminrobbe/Documents/school/semester 6/stage/sandbox/BargeIt/BargeIt/BargeIt.Config/obj/Debug/net6.0/ref/BargeIt.Config.dll
