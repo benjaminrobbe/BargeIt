@@ -811,7 +811,7 @@
       "outputPath": "/Users/benjaminrobbe/Documents/school/semester 6/stage/sandbox/BargeIt/BargeIt/BargeIt.Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/benjaminrobbe/.nuget/NuGet/NuGet.Config"
+        "/Users/benjaminrobbe/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -848,22 +848,7 @@
             "version": "[6.0.3, )"
           }
         },
-        "imports": [
-          "net461",
-          "net462",
-          "net47",
-          "net471",
-          "net472",
-          "net48"
-        ],
-        "assetTargetFallback": true,
-        "warn": true,
-        "frameworkReferences": {
-          "Microsoft.NETCore.App": {
-            "privateAssets": "all"
-          }
-        },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.200/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/Users/benjaminrobbe/Library/Caches/VisualStudio/8.0/MSBuild/9359_1/RuntimeIdentifierGraph.json"
       }
     }
   }
